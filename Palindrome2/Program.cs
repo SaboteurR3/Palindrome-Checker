@@ -57,7 +57,6 @@ namespace Palindrome2
                     List<char> list = new List<char>();
                     PalindromeChecker(savedString, list);
                 }
-
                 catch (Exception exc)
                 {
                     Console.WriteLine(exc.Message);
